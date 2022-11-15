@@ -54,9 +54,15 @@ function mbn_register_required_plugins(){
 		),
 		
 		array(
-			'name'      => 'SEO Rank Math',
-			'slug'      => 'seo-by-rank-math',
-			'required'  => false,
+			'name'               => 'SEO Rank Math Pro',
+			'slug'               => 'seo-by-rank-math-pro',
+			'source'             => get_template_directory().'/includes/tgmpa/plugins/seo-by-rank-math-pro.zip',
+			'required'           => false,
+			'version'            => '3.0.24',
+			'force_activation'   => false,
+			'force_deactivation' => false,
+			'external_url'       => '',
+			'is_callable'        => '',
 		),
 
 		array(
